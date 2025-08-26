@@ -21,9 +21,10 @@ int main()
    remaining=n/10;
    rs= ld*power+remaining;
   printf("Cyclic Right Shifted number= %d\n",rs);
-//left shift
+//for left shift
 fd=n/power;
 ls=(n%power)*10+fd;
   printf("Cyclic Left Shifted number= %d\n",ls);
 }
+
 
